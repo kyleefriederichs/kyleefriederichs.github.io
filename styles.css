@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Body styling */
+body {
+    background-color: #C5CFDB;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #343a40; /* Dark background color for the navbar */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Adjust the font size for the brand */
+  }
+  
+  .navbar-nav .nav-link {
+    color: white; /* Text color for navbar links */
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #B195FF;
+    color: white;
+    padding: 5rem 0;
+  }
+  
+  /* About section styling */
+  #about {
+    background-color: #B9C3CE;
+    padding: 5rem 0; 
+  }
+  
+  /* Education section styling */
+  #education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0; 
+  }
+
+  
+  /* Profile image styling */
+  .profile-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+
+  /* Education label styling */
+  .education-label {
+    font-style: italic;
+  }
+  
+  /* Courses list styling */
+  .courses-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0; 
+  }
+  
+  
+   /* Contact styling */
+   #contact {
+    padding: 5rem 0; 
+  }
+  
