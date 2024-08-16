@@ -131,38 +131,28 @@ body.contact-page {
   background-color: #B195FF;
 }
 
-
-/* Custom styles for the projects page */
+/* Ensure all cards in a row have the same height */
 .card {
-  border: none;
-  border-radius: 10px;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
-.card-body {
-  padding: 1.5rem;
-}
-
-.card-title {
-  font-size: 1.25rem;
+.card .card-body {
+  display: flex;
+  flex-direction: column;
 }
 
 .embed-responsive {
   position: relative;
-  display: block;
   width: 100%;
-  padding: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
   overflow: hidden;
-  background-color: #000;
 }
 
-.embed-responsive-16by9::before {
-  display: block;
-  content: "";
-  padding-top: 56.25%;
-}
-
-.embed-responsive-item {
+.embed-responsive .embed-responsive-item {
   position: absolute;
   top: 0;
   left: 0;
