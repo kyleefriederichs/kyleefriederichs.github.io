@@ -67,9 +67,66 @@ body {
     padding: 1rem 0; 
   }
   
-  
-   /* Contact styling */
-   #contact {
-    padding: 5rem 0; 
-  }
-  
+
+  /* Custom Button Styles */
+.btn-lilac {
+  background-color: #C8A2C8;
+  color: white;
+  border: none;
+}
+
+.btn-lilac:hover {
+  background-color: #B284BE;
+  color: white;
+}
+
+.btn-periwinkle {
+  background-color: #bd9de5;
+  color: white;
+  border: none;
+}
+.btn-periwinkle:hover {
+  background-color: #8c6ab4;
+  color: white;
+}
+
+.btn-linkedIn {
+  background-color: #0072b1;
+  color: white;
+  border: none;
+}
+.btn-linkedIn:hover {
+  background-color: rgb(71, 74, 125);
+  color: white;
+}
+
+
+
+/* Adjust spacing for all buttons */
+.btn {
+  margin-right: 15px; /* This will ensure uniform spacing between all buttons */
+}
+
+/* Remove margin from the last button to avoid extra space on the right */
+.btn:last-child {
+  margin-right: 0;
+}
+
+/* Contact styling */
+#contact {
+  padding: 5rem 0; 
+  background-color: #B9C3CE;
+}
+
+#contact .text-center {
+  text-align: center;
+}
+
+#contact .d-flex {
+  justify-content: center;
+}
+
+/* Background color for the contact page */
+body.contact-page {
+  background-color: #B195FF;
+}
