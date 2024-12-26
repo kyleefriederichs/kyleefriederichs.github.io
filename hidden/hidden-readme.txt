@@ -1,0 +1,1 @@
+This folder is for hosting files that need to be published but are not meant to be accessible from my website.
