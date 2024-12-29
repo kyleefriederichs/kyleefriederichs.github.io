@@ -32,12 +32,56 @@ body {
   }
   
   /* Education section styling */
-  #education {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5rem 0; 
+
+
+  #education h2 {
+    font-weight: bold;
+    color: #333;
   }
+
+  .timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 3px solid #007bff;
+    margin-top: 20px;
+  }
+
+  .timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #007bff;
+    border-radius: 50%;
+  }
+
+  .timeline-item h4 {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+
+  .timeline-item p {
+    margin: 0;
+  }
+
+  .timeline-item ul {
+    margin-top: 10px;
+    padding-left: 1.5rem;
+  }
+
+  .timeline-item ul li {
+    margin-bottom: 5px;
+  }
+
 
   
   /* Profile image styling */
